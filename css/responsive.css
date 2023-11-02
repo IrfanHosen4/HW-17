@@ -1,0 +1,26 @@
+@media (max-width: 991px) {
+    #counter-up{
+      padding: 50px 50px 0 50px;
+    }
+    #counter-up .content .box{
+      width: calc(50% - 30px);
+      margin-bottom: 50px;
+    }
+    .popup .btn {
+      font-size: 13px;
+      padding: 5px 15px;
+      bottom: 11px;
+      left: 38%;
+    }
+    .msg {
+      bottom: 16px;
+      right: 5px;
+      padding: 5px 5px;
+      font-size: 6px;
+  }
+  }
+  @media (max-width: 580px) {
+    #counter-up .content .box{
+      width: 100%;
+    }
+  }
